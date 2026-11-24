@@ -1,0 +1,112 @@
+/*Notice function*/
+.wprev-notice-title{
+  font-size: 20px;
+}
+.wprev-welcome-notice {
+  position: relative;
+  padding: 20px;
+  display: block;
+}
+.wprev-welcome-notice-wrap h2,.wprev-welcome-notice-wrap h3 {
+  margin: 0;
+}
+.wprev-welcome-info {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 15px;
+}
+.wprev-welcome-thumb img {
+  max-width: 250px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+.wprev-welcome-import,.wprev-welcome-getting-started{
+  max-width: 400px;
+}
+.wprev-welcome-import p,.wprev-welcome-getting-started p{
+  font-size: 14px;
+}
+.wprev-dismiss-link {
+  float: right;
+  margin: 0;
+}
+.wprev-notice-desc{
+  font-size: 16px;
+}
+.wprev-welcome-notice a.info-link {
+  padding: 6px 15px !important;
+  font-size: 15px !important;
+}
+@media only screen and (max-width: 767px) {
+  .wprev-welcome-info {
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .wprev-welcome-notice {
+    text-align: center;
+  }
+}
+/* One-click Plugin Installation & Demo Import */
+.wprev-demo-import {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 12px;
+  margin: 10px 0 0;
+}
+.wprev-demo-import .button.wprev-demo-import-button,
+.wprev-demo-import .wprev-demo-import-visit {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 15px;
+  font-size: 15px;
+  line-height: 1.6;
+  min-height: 0;
+}
+.wprev-demo-import .button.wprev-demo-import-rerun {
+  padding: 0;
+  font-size: 13px;
+}
+.wprev-demo-import.is-running .wprev-demo-import-button::before {
+  content: "";
+  width: 14px;
+  height: 14px;
+  border: 2px solid currentColor;
+  border-right-color: transparent;
+  border-radius: 50%;
+  animation: automotive-car-dealer-spin .8s linear infinite;
+}
+.wprev-demo-import .button.wprev-demo-import-button:disabled {
+  cursor: progress;
+}
+.wprev-demo-import-status {
+  flex-basis: 100%;
+  margin: 0 !important;
+  font-size: 13px !important;
+  color: #50575e;
+}
+.wprev-demo-import-status:empty {
+  display: none;
+}
+.wprev-demo-import-status.is-error {
+  color: #d63638;
+}
+.wprev-demo-import-status.is-success {
+  color: #007017;
+}
+@keyframes automotive-car-dealer-spin {
+  to { transform: rotate(360deg); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .wprev-demo-import.is-running .wprev-demo-import-button::before {
+    animation-duration: 2.4s;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .wprev-demo-import {
+    justify-content: center;
+  }
+}

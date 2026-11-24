@@ -1,0 +1,24 @@
+2026-11-17T14:32:45+00:00 DEBUG #4831.WC - [New Request] POST /wordpress/wordpress/ @ 14:32:42.291
+2026-11-17T14:32:45+00:00 ERROR #4831.WC - SDK v6 client token runtime error: Cannot request a PayPal client token without a client ID and secret.
+2026-11-17T14:32:53+00:00 DEBUG #9777.WC - [New Request] POST /wordpress/wordpress/ @ 14:32:50.225
+2026-11-17T14:32:53+00:00 ERROR #9777.WC - SDK v6 client token runtime error: Cannot request a PayPal client token without a client ID and secret.
+2026-11-17T14:32:58+00:00 DEBUG #1554.WC - [New Request] POST /wordpress/wordpress/ @ 14:32:54.683
+2026-11-17T14:32:58+00:00 ERROR #1554.WC - SDK v6 client token runtime error: Cannot request a PayPal client token without a client ID and secret.
+2026-11-17T14:33:02+00:00 DEBUG #6554.WC - [New Request] POST /wordpress/wordpress/ @ 14:32:58.597
+2026-11-17T14:33:02+00:00 ERROR #6554.WC - SDK v6 client token runtime error: Cannot request a PayPal client token without a client ID and secret.
+2026-11-17T14:33:05+00:00 DEBUG #7823.WC - [New Request] POST /wordpress/wordpress/ @ 14:33:02.835
+2026-11-17T14:33:05+00:00 ERROR #7823.WC - SDK v6 client token runtime error: Cannot request a PayPal client token without a client ID and secret.
+2026-11-17T14:33:14+00:00 DEBUG #4936.WC - [New Request] POST /wordpress/wordpress/ @ 14:33:11.682
+2026-11-17T14:33:14+00:00 ERROR #4936.WC - SDK v6 client token runtime error: Cannot request a PayPal client token without a client ID and secret.
+2026-11-17T14:45:09+00:00 DEBUG #9911.WC - [New Request] POST /wordpress/wordpress/ @ 14:45:06.189
+2026-11-17T14:45:09+00:00 ERROR #9911.WC - SDK v6 client token runtime error: Cannot request a PayPal client token without a client ID and secret.
+2026-11-17T14:45:19+00:00 DEBUG #5323.WC - [New Request] POST /wordpress/wordpress/ @ 14:45:15.719
+2026-11-17T14:45:19+00:00 ERROR #5323.WC - SDK v6 client token runtime error: Cannot request a PayPal client token without a client ID and secret.
+2026-11-17T14:45:44+00:00 DEBUG #2049.WC - [New Request] POST /wordpress/wordpress/ @ 14:45:40.914
+2026-11-17T14:45:44+00:00 ERROR #2049.WC - SDK v6 client token runtime error: Cannot request a PayPal client token without a client ID and secret.
+2026-11-17T14:45:47+00:00 DEBUG #1512.WC - [New Request] POST /wordpress/wordpress/ @ 14:45:44.132
+2026-11-17T14:45:47+00:00 ERROR #1512.WC - SDK v6 client token runtime error: Cannot request a PayPal client token without a client ID and secret.
+2026-11-17T14:47:46+00:00 DEBUG #7257.WC - [New Request] POST /wordpress/wordpress/ @ 14:47:42.805
+2026-11-17T14:47:46+00:00 ERROR #7257.WC - SDK v6 client token runtime error: Cannot request a PayPal client token without a client ID and secret.
+2026-11-17T14:47:55+00:00 DEBUG #8236.WC - [New Request] POST /wordpress/wordpress/ @ 14:47:52.234
+2026-11-17T14:47:55+00:00 ERROR #8236.WC - SDK v6 client token runtime error: Cannot request a PayPal client token without a client ID and secret.
